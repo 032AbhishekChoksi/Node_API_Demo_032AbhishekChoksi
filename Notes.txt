@@ -1,0 +1,46 @@
+https://youtu.be/mIW_8dMQaUk
+
+
+Commands List
+1. To int your project or Application
+npm init or npm init -y
+
+npm -> Node Package Manager
+Backend Packages Install
+--------------------------
+npm install express --save --no-audit                 -> MVC Structer provide (routes)
+npm install mongoose --save --no-audit                -> MongoDb Database access
+npm install express-validator --save --no-audit       -> Validator or error handling
+npm install bcryptjs --save --no-audit 				  -> Password Encryptions
+npm install jsonwebtoken --save --no-audit            -> API Authentication
+npm install multer --save --no-audit                  -> FILE Upload or Filteration
+npm install cors --save --no-audit					  -> Two Deployee diiffenet server then solve erros
+
+npm install --global nodemon --save --no-audit
+
+
+mongodb://localhost:27017
+
+Table -> Collection
+1 record -> 1 Document OR 3 record -> 3 Document
+
+API:
+localhost:4000/api/category/create
+
+Basics Folders
+config
+routes
+middleware
+controllers
+services
+
+
+{
+	key: value
+}
+
+Methods:-
+POST -> CREATE or INSERT
+GET -> DATA RETRIVE
+PUT OR PATCH -> DATA UPDATE
+DELETE -> DATA DELETE
